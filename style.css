@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background-color: dodgerblue;
+}
+
+.box {
+  width: 80vw;
+  height: 100vh;
+  background-color: #7d7d7d;
+  color: #fff;
+}
+
+.inner {
+  width: 100%;
+  background-color: orange;
+}
+
+/* Viewport units are always relative to the browser viewport */
+/* % units are always relative to the parent container */
